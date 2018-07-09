@@ -5,9 +5,11 @@ Sorgente VB.NET per connettersi a Fattura24
 Utilizzo:
 
 A. Per effettuare il test
+
 Fatturazione_elettronica(“test”, Nothing)
 
 B. Per inviare i dati della fattura
+
 Dim StringFattura = "<Fattura24>" & _
                                   "<Document>" & _
                                       "<DocumentType>I</DocumentType>" & _
@@ -70,5 +72,7 @@ Dim StringFattura = "<Fattura24>" & _
                                           "</Row>" & _
                                       "</Rows>" & _
                                   "</Document>" & _
-                              "</Fattura24>" 
+                              "</Fattura24>"
+                              
+                              
 Fatturazione_elettronica(“crea”, StringFattura)
