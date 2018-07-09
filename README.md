@@ -1,4 +1,5 @@
 # fattura24-VB.NET
+# 2018.07.09
 Sorgente VB.NET per connettersi a Fattura24
 
 Utilizzo:
